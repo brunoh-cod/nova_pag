@@ -1,0 +1,54 @@
+body{
+    margin: 2px;
+}
+
+h1{
+    padding-left: 25%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: coral;
+}
+
+h3{
+    padding: 10px;
+    font-size: 16px;
+    font-family: fantasy;
+    cursor: default;
+}
+
+abbr{
+    background-color:darkgoldenrod;
+    color: wheat;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 10pc;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#Tailandia section{
+    border-radius: 5px;
+    background-color: coral;
+}
+
+#Espanha section{
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+#Italia section{
+    border-radius: 5px;
+    background-color: crimson;
+}
+
+#Estados_Unidos section{
+    border-radius: 5px;
+    background-color: darkgreen;
+}
+
+footer{
+    position: absolute;
+}
