@@ -29,22 +29,22 @@ button{
     font-size: 12px;
 }
 
-#Tailandia section{
+.Tailandia{
     border-radius: 5px;
     background-color: coral;
 }
 
-#Espanha section{
+.Espanha{
     border-radius: 5px;
     background-color: cornflowerblue;
 }
 
-#Italia section{
+.Italia{
     border-radius: 5px;
     background-color: crimson;
 }
 
-#Estados_Unidos section{
+.Estados_Unidos{
     border-radius: 5px;
     background-color: darkgreen;
 }
