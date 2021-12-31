@@ -1,54 +1,28 @@
 body{
-    margin: 2px;
+    margin: 10px;
+}
+
+.Introdução{
+    background-color: tan;
+    border: solid 1px tan;
+    border-radius: 5px;
+}
+
+.Introdução:hover{
+    background-color: white;
+    border: solid 1px white;
 }
 
 h1{
-    padding-left: 25%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    color: cornflowerblue;
+    color: steelblue;
+    text-align: center;
 }
 
-h3{
-    padding: 10px;
-    font-size: 16px;
-    font-family: fantasy;
-    cursor: default;
+h1:hover{
+    color: lightgreen;
+    background-color: tan;
 }
 
-abbr{
-    background-color:darkgoldenrod;
-    color: wheat;
-    cursor: pointer;
-}
-
-button{
-    border-radius: 10pc;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-.Tailandia{
-    border-radius: 5px;
-    background-color: coral;
-}
-
-.Espanha{
-    border-radius: 5px;
-    background-color: cornflowerblue;
-}
-
-.Italia{
-    border-radius: 5px;
-    background-color: crimson;
-}
-
-.Estados_Unidos{
-    border-radius: 5px;
-    background-color: darkgreen;
-}
-
-footer{
-    position: absolute;
+p::first-letter{
+    font-size: 25px;
 }
